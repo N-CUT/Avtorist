@@ -9,9 +9,9 @@
 
 > **Скачивай только со страницы Releases на GitHub через браузер** (Safari, Chrome). Если файл переслали через Telegram или другой мессенджер из App Store, macOS может вообще не дать его открыть («Не удаётся открыть программу»): она так обращается с файлами, сохранёнными «песочными» приложениями. Тогда просто скачай DMG заново с GitHub.
 1. Открой страницу Releases и скачай файл для своего Mac:
-   - Apple Silicon (M1/M2/M3/M4…): `Avtorist-1.1.0-macOS-AppleSilicon.dmg`
-   - Intel: `Avtorist-1.1.0-macOS-Intel.dmg`
-2. (Необязательно) Сверь контрольную сумму в Терминале: `shasum -a 256 ~/Downloads/Avtorist-1.1.0-macOS-*.dmg`. Она должна совпасть со строкой в `SHA256SUMS.txt`.
+   - Apple Silicon (M1/M2/M3/M4…): `Avtorist-1.2.0-macOS-AppleSilicon.dmg`
+   - Intel: `Avtorist-1.2.0-macOS-Intel.dmg`
+2. (Необязательно) Сверь контрольную сумму в Терминале: `shasum -a 256 ~/Downloads/Avtorist-1.2.0-macOS-*.dmg`. Она должна совпасть со строкой в `SHA256SUMS.txt`.
 3. Открой `.dmg` двойным кликом и перетащи «Avtorist» на папку «Applications».
 4. Извлеки диск «Avtorist» (кнопка ⏏ в Finder).
 5. Запусти «Avtorist» из «Программ» или Launchpad.
@@ -42,8 +42,8 @@
 # Windows
 
 ## Установка
-1. Скачай со страницы Releases файл `Avtorist-1.1.0-Windows-x64.zip` (Windows 10 / 11, 64-бит).
-2. (Необязательно) Сверь контрольную сумму в PowerShell: `Get-FileHash $HOME\Downloads\Avtorist-1.1.0-Windows-x64.zip`. Она должна совпасть со строкой в `SHA256SUMS.txt`.
+1. Скачай со страницы Releases файл `Avtorist-1.2.0-Windows-x64.zip` (Windows 10 / 11, 64-бит).
+2. (Необязательно) Сверь контрольную сумму в PowerShell: `Get-FileHash $HOME\Downloads\Avtorist-1.2.0-Windows-x64.zip`. Она должна совпасть со строкой в `SHA256SUMS.txt`.
 3. Правый клик по архиву → **«Извлечь всё…»** → выбери место, например «Документы» → «Извлечь». Не запускай программу прямо из архива, сначала распакуй.
 4. В папке «Avtorist» запусти **`Avtorist.exe`**.
 5. Если появится окно «Система Windows защитила ваш компьютер», нажми **«Подробнее»** → **«Выполнить в любом случае»**. Это нужно один раз.
